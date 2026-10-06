@@ -1,0 +1,193 @@
+================================================================================
+FILE: breast_cppo.xlsx
+================================================================================
+Sheets: ['Sheet 1']
+
+--- SHEET: Sheet 1 ---
+Rows: 219
+Columns: 15
+
+COLUMN NAMES:
+1. Axillary_lymphadenectomy
+2. Surgery
+3. Health_status_end
+4. Age
+5. Educational_level
+6. Chemotherapy_regimen
+7. Radiotherapy
+8. Occupational_status 
+9. Children
+10. TNM_stage
+11. EORTC_baseline
+12. ECOG
+13. HER2
+14. Marital_status
+15. Perceived_risk_recurrence
+
+DATA TYPES:
+Axillary_lymphadenectomy         str
+Surgery                          str
+Health_status_end            float64
+Age                            int64
+Educational_level                str
+Chemotherapy_regimen             str
+Radiotherapy                     str
+Occupational_status              str
+Children                      object
+TNM_stage                        str
+EORTC_baseline               float64
+ECOG                           int64
+HER2                             str
+Marital_status                   str
+Perceived_risk_recurrence        str
+dtype: object
+
+FIRST 3 ROWS:
+  Axillary_lymphadenectomy  ... Perceived_risk_recurrence
+0                       No  ...                      High
+1                       No  ...                      High
+2                       No  ...                 Very high
+
+[3 rows x 15 columns]
+
+================================================================================
+FILE: breast_qlq_c30.xlsx
+================================================================================
+Sheets: ['Sheet 1']
+
+--- SHEET: Sheet 1 ---
+Rows: 339
+Columns: 36
+
+COLUMN NAMES:
+1. ID
+2. HE_baseline
+3. PH_baseline
+4. RO_baseline
+5. EF_baseline
+6. COG_baseline
+7. SO_baseline
+8. FA_baseline
+9. Nau_baseline
+10. PA_baseline
+11. DY_baseline
+12. IN_baseline
+13. AP_baseline
+14. CO_baseline
+15. DIA_baseline
+16. FI_baseline
+17. SYM_baseline
+18. Overall_EORTC_baseline
+19. HE_end
+20. PH_end
+21. RO_end
+22. EF_end
+23. COG_end
+24. SO_end
+25. FA_end
+26. NA_end
+27. PA_end
+28. DY_end
+29. IN_end
+30. AP_end
+31. CO_end
+32. DIA_end
+33. FI_end
+34. SYM_end
+35. Overall_EORTC_end
+36. Surgery
+
+DATA TYPES:
+ID                          int64
+HE_baseline               float64
+PH_baseline               float64
+RO_baseline               float64
+EF_baseline               float64
+COG_baseline              float64
+SO_baseline               float64
+FA_baseline               float64
+Nau_baseline              float64
+PA_baseline               float64
+DY_baseline               float64
+IN_baseline               float64
+AP_baseline               float64
+CO_baseline               float64
+DIA_baseline              float64
+FI_baseline               float64
+SYM_baseline              float64
+Overall_EORTC_baseline    float64
+HE_end                    float64
+PH_end                    float64
+RO_end                    float64
+EF_end                    float64
+COG_end                   float64
+SO_end                    float64
+FA_end                    float64
+NA_end                    float64
+PA_end                    float64
+DY_end                    float64
+IN_end                    float64
+AP_end                    float64
+CO_end                    float64
+DIA_end                   float64
+FI_end                    float64
+SYM_end                   float64
+Overall_EORTC_end         float64
+Surgery                       str
+dtype: object
+
+FIRST 3 ROWS:
+   ID  HE_baseline  ...  Overall_EORTC_end     Surgery
+0   8         58.3  ...              87.22         BCS
+1  14         83.3  ...              84.07         BCS
+2  22         66.7  ...              29.01  Mastectomy
+
+[3 rows x 36 columns]
+
+================================================================================
+FILE: breast_scores.xlsx
+================================================================================
+Sheets: ['Sheet 1']
+
+--- SHEET: Sheet 1 ---
+Rows: 339
+Columns: 13
+
+COLUMN NAMES:
+1. SURGERY
+2. HE_BASELINE
+3. PH_BASELINE
+4. RO_BASELINE
+5. EF_BASELINE
+6. SO_BASELINE
+7. COG_BASELINE
+8. HE6
+9. PH6
+10. RO6
+11. EF6
+12. SO6
+13. COG6
+
+DATA TYPES:
+SURGERY             str
+HE_BASELINE     float64
+PH_BASELINE     float64
+RO_BASELINE     float64
+EF_BASELINE     float64
+SO_BASELINE     float64
+COG_BASELINE    float64
+HE6             float64
+PH6             float64
+RO6             float64
+EF6             float64
+SO6             float64
+COG6            float64
+dtype: object
+
+FIRST 3 ROWS:
+      SURGERY  HE_BASELINE  PH_BASELINE  ...    EF6    SO6   COG6
+0         BCS         58.3         73.3  ...   91.7  100.0  100.0
+1         BCS         83.3        100.0  ...  100.0  100.0  100.0
+2  Mastectomy         66.7         80.0  ...   66.7   33.3  100.0
+
+[3 rows x 13 columns]
