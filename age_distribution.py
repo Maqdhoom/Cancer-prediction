@@ -1,6 +1,8 @@
 ﻿import pandas as pd
 import matplotlib.pyplot as plt
 
+# Analyze patient age statistics and visualize the age distribution.
+
 print("=" * 70)
 print("STEP 2W - AGE DISTRIBUTION")
 print("=" * 70)
