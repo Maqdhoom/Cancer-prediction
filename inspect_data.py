@@ -1,6 +1,7 @@
 import pandas as pd
 from pathlib import Path
 
+# Inspect raw datasets for their structure, column names, and missing values.
 DATA_FOLDER = Path("data/raw")
 
 files = [
