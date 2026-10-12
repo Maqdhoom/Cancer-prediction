@@ -1,5 +1,5 @@
 import pandas as pd
-
+# Validate the dataset structure and check for missing values before model training.
 # Load final features and target
 X = pd.read_csv("data/processed/X_features.csv")
 y = pd.read_csv("data/processed/y_target.csv")
