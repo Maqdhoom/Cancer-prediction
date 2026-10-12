@@ -1,6 +1,7 @@
 ﻿import pandas as pd
 import matplotlib.pyplot as plt
 
+# Analyze relationships between numerical features and visualize their correlations.
 print("=" * 70)
 print("STEP 2Z - CORRELATION ANALYSIS")
 print("=" * 70)
