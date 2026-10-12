@@ -6,6 +6,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
+# Compare regression models using MAE, RMSE, and R2 scores on training and testing data.
 print("=" * 70)
 print("STEP 2N - MODEL COMPARISON")
 print("=" * 70)
