@@ -4,7 +4,7 @@ A machine-learning project for predicting a cancer patient's end-of-treatment he
 
 ## Project overview
 
-This project predicts a continuous health-status score from 0 to 100 using patient information such as age, education, treatment details, ECOG score, HER2 status, and perceived risk of recurrence. A tuned Random Forest regressor is used as the final model.
+this project predicts a continuous health-status score from 0 to 100 using patient information such as age, education, treatment details, ECOG score, HER2 status, and perceived risk of recurrence. A tuned random forest regressor is used as the final model.
 
 ## Repository structure
 
@@ -63,7 +63,7 @@ The project is organized around a typical ML pipeline:
 
 ## Notes
 
-- This is a research/demo project and should not be used as a clinical diagnosis tool.
+- This is a research/demo project and should not be used as a clinical diagnosis tool
 - The app is intended for demonstration and exploratory prediction rather than medical decision-making.
 
 ## License
