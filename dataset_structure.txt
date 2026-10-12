@@ -1,6 +1,7 @@
 ================================================================================
 FILE: breast_cppo.xlsx
 ================================================================================
+# Inspect raw Excel datasets, including sheet names, dimensions, column names, and data types.
 Sheets: ['Sheet 1']
 
 --- SHEET: Sheet 1 ---
