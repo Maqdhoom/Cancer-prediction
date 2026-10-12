@@ -50,7 +50,7 @@ The project is organized around a typical ML pipeline:
 1. Prepare the raw dataset using the scripts in `src/`
 2. Preprocess and validate the target variable
 3. Split and compare multiple models
-4. Tune the best-performing modell 
+4. Tune the best-performing model
 5. Evaluate final performance and generate feature-importance plots
 6. Use the Streamlit app for patient-level predictions
 
