@@ -29,7 +29,10 @@ model = joblib.load(
 # Predictions
 y_pred = model.predict(X_test)
 
-# Metrics
+# Calculate evaluation metrics to assess final model performance.
+# MAE measures average absolute prediction error.
+# RMSE penalizes larger prediction errors more heavily.
+# R2 measures how well the model explains variation in the target.
 mae = mean_absolute_error(y_test, y_pred)
 rmse = np.sqrt(mean_squared_error(y_test, y_pred))
 r2 = r2_score(y_test, y_pred)
