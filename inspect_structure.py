@@ -1,6 +1,7 @@
 import pandas as pd
 from pathlib import Path
 
+# Extract Excel dataset structure and save the inspection results to a text file.
 folder = Path("data/raw")
 output = []
 
