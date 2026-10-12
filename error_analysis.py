@@ -1,6 +1,7 @@
 ﻿import pandas as pd
 import numpy as np
 
+# Evaluate prediction errors and summarize model performance.
 print("=" * 70)
 print("STEP 2S - ERROR ANALYSIS")
 print("=" * 70)
